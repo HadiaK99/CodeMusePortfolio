@@ -234,11 +234,11 @@ export default function Home() {
           </h1>
           
           <h2 className="text-2xl md:text-4xl font-light mb-8 animate-fade-in-up" style={{animationDelay: '0.4s'}}>
-            Full Stack Development Agency
+            Full Stack Development Excellence
           </h2>
           
           <p className="text-lg md:text-xl text-gray-300 mb-12 max-w-3xl mx-auto leading-relaxed animate-fade-in-up" style={{animationDelay: '0.6s'}}>
-            Transforming ideas into powerful digital solutions with cutting-edge technology, seamless user experiences, and robust architecture that scales with your business.
+            We craft exceptional digital experiences using React, TypeScript, Next.js, Python, Django, Flask, Node.js, and cutting-edge technologies. From e-commerce platforms to data scraping solutions, we bring your vision to life.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center animate-fade-in-up" style={{animationDelay: '0.8s'}}>

@@ -40,6 +40,8 @@ export class MemStorage implements IStorage {
     const message: ContactMessage = { 
       ...insertMessage, 
       id,
+      project: insertMessage.project || null,
+      budget: insertMessage.budget || null,
       createdAt: new Date()
     };
     this.contactMessages.set(id, message);

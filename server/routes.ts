@@ -62,7 +62,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
 
 async function sendContactEmail(data: any) {
   // Configure email transporter
-  const transporter = nodemailer.createTransporter({
+  const transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
       user: process.env.EMAIL_USER || 'codemuse@gmail.com',

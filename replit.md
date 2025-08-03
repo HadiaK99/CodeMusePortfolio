@@ -1,6 +1,6 @@
 # Overview
 
-This is a full-stack web application built as a portfolio/marketing website for "Code Muse" - a web development service. The application features a modern React frontend with a Node.js/Express backend, designed to showcase services and handle client inquiries through a contact form. The site uses a dark-themed design with gradient elements and smooth animations.
+This is a full-stack web application built as a portfolio/marketing website for "Code Muse" - a web development agency. The application features a modern React frontend with a Node.js/Express backend, designed to showcase development services across multiple technology stacks (React, TypeScript, Next.js, Python, Django, Flask, Node.js, etc.). The site uses a dark-themed design with purple/pink gradient elements, smooth animations, and interactive features including a fully functional contact form that sends emails to codemuse@gmail.com.
 
 # User Preferences
 
