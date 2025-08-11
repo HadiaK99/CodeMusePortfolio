@@ -1,4 +1,4 @@
-import logoImage from "@assets/1_1754229183533.png";
+import logoImage from "@assets/1-nobg-logo.png";
 
 export function CodeMuseLogo({ className = "w-10 h-10" }: { className?: string }) {
   return (
