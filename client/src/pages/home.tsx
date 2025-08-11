@@ -147,14 +147,14 @@ export default function Home() {
               </button>
               
               {/* Dark Mode Toggle */}
-              <Button
+              {/* <Button
                 variant="ghost"
                 size="icon"
                 onClick={() => setDarkMode(!darkMode)}
                 className="bg-[hsl(240,19%,16%)] hover:bg-[hsl(267,84%,67%)]/20"
               >
                 <Moon className="h-5 w-5 text-[hsl(267,84%,67%)]" />
-              </Button>
+              </Button> */}
             </div>
             
             {/* Mobile Menu Button */}
@@ -456,6 +456,7 @@ export default function Home() {
                   <span className="px-3 py-1 bg-[hsl(328,85%,70%)]/20 rounded-full text-sm">Responsive Design</span>
                   <span className="px-3 py-1 bg-[hsl(328,85%,70%)]/20 rounded-full text-sm">CMS Integration</span>
                   <span className="px-3 py-1 bg-[hsl(328,85%,70%)]/20 rounded-full text-sm">SEO Optimized</span>
+                  {/* <span className="px-3 py-1 bg-[hsl(328,85%,70%)]/20 rounded-full text-sm">Something Else</span> */}
                 </div>
               </div>
             </div>
@@ -537,7 +538,7 @@ export default function Home() {
                     <li className="flex items-center"><Check className="text-[hsl(267,84%,67%)] mr-2 w-4 h-4" />Modern tech stack</li>
                     <li className="flex items-center"><Check className="text-[hsl(267,84%,67%)] mr-2 w-4 h-4" />Scalable architecture</li>
                     <li className="flex items-center"><Check className="text-[hsl(267,84%,67%)] mr-2 w-4 h-4" />Responsive design</li>
-                    <li className="flex items-center"><Check className="text-[hsl(267,84%,67%)] mr-2 w-4 h-4" />SEO optimized</li>
+                    <li className="flex items-center"><Check className="text-[hsl(267,84%,67%)] mr-2 w-4 h-4" />Robust and secure</li>
                     <li className="flex items-center"><Check className="text-[hsl(267,84%,67%)] mr-2 w-4 h-4" />24/7 support</li>
                   </ul>
                 </CardContent>
@@ -638,6 +639,7 @@ export default function Home() {
             <span className="text-xl font-bold gradient-text">CODE MUSE</span>
           </div>
           <p className="text-gray-400 mb-6">Transforming ideas into powerful digital solutions</p>
+          {/* <p className="text-gray-400 mb-6">Connecting people and technology</p> */}
           <p className="text-sm text-gray-500">© 2024 Code Muse. All rights reserved.</p>
         </div>
       </footer>
